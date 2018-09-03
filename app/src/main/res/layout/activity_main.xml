@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    >
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:paddingEnd="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bubble"
+        android:textColorHint="#8effffff"
+        android:gravity="center_vertical"
+        android:paddingStart="32dp"
+        android:hint="Add Question Here" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:paddingEnd="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bubble"
+        android:textColorHint="#8effffff"
+        android:gravity="center_vertical"
+        android:paddingStart="32dp"
+        android:hint="Add Answer Here" />
+
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="Submit"/>
+
+
+
+</LinearLayout>
